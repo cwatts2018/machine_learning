@@ -3,8 +3,8 @@ function plotData(x, y)
 %   PLOTDATA(x,y) plots the data points and gives the figure axes labels of
 %   population and profit.
 
-figure(1); plot(x, y, 'rx', 'MarkerSize', 10); % open a new figure window
-ylabel('Profit in $10,000s');
-xlabel('Population of City in 10,000s');
+  figure(1); plot(x, y, 'rx', 'MarkerSize', 10); % open a new figure window
+  ylabel('Profit in $10,000s');
+  xlabel('Population of City in 10,000s');
 
 end
