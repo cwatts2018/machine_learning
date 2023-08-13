@@ -15,5 +15,5 @@ sigma = std(X);
 [r,c] = size(X);
 for i = 1:c  
   X_norm(:,i) =(X(:,i)- mu(1,i))/sigma(1,i);
-  end;  
+  end 
 end
