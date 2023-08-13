@@ -9,27 +9,8 @@ m = size(X,1);
 % You need to return the following variables correctly.
 X_poly = zeros(numel(X), p);
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: Given a vector X, return a matrix X_poly where the p-th 
-%               column of X contains the values of X to the p-th power.
-%
-% 
-
-%for dataP = 1:m
-%  for i = 1:p 
-%    X_poly(dataP,i) = X(dataP,1)^p; 
-%  end;
-%end;
-
 for i = 1:p
   X_poly(:,i) = X .^ i;
 endfor
-
-
-
-
-
-
-% =========================================================================
 
 end
